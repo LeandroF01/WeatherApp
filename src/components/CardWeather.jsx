@@ -73,9 +73,6 @@ const CardWeather = ({ lon, lat }) => {
   }, [lon, lat, iconName]);
 
   const toggleCLick = () => setIsCelsius(!isCelsius);
-  console.log(weather);
-  console.log(renderBackground);
-  console.log(iconName);
 
   if (isLoading) {
     return <Loading />;
